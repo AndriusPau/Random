@@ -1,4 +1,4 @@
-﻿public class Clock
+public class GetClockArrowAngle
 {
     public static void Main(string[] args)
     {
