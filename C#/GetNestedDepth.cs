@@ -1,4 +1,4 @@
-﻿public class Branch
+﻿public class GetNestedDepth
 {
     private List<Branch> branches;
 
