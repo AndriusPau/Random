@@ -1,4 +1,6 @@
-public class GetClockArrowAngle
+namespace GetClockArrowAngle;
+
+public class Clock
 {
     public static void Main(string[] args)
     {
