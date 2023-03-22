@@ -81,19 +81,19 @@ BEGIN
 END$$
 DELIMITER ;
 
-INSERT INTO candies VALUES ("Milka", "Chocolate", "This is chocolate", 5.25, 125);
-INSERT INTO candies VALUES ("Lolly", "Candy", "This is a lollypop", 1, 100);
-INSERT INTO candies VALUES ("Mint", "Candy", "This is a mint", 0.25, 200);
-INSERT INTO candies VALUES ("Watermellon", "Gum", "This is a watermellon gum", 1.25, 180);
-INSERT INTO candies VALUES ("Orbit", "Gum", "This is an Orbit gum", 1.20, 160);
-INSERT INTO candies VALUES ("Trash", "Trash", "This is Trash", 0.01, 1000);
-INSERT INTO candies VALUES ("food1", "food", "This is food", 0.01, 1000);
-INSERT INTO candies VALUES ("food2", "food", "This is food", 0.01, 1000);
-INSERT INTO candies VALUES ("food3", "food", "This is food", 0.01, 1000);
-INSERT INTO candies VALUES ("food4", "food", "This is food", 0.01, 1000);
-INSERT INTO candies VALUES ("food5", "food", "This is food", 0.01, 1000);
-INSERT INTO candies VALUES ("food6", "food", "This is food", 0.01, 1000);
-INSERT INTO candies VALUES ("food7", "food", "This is food", 0.01, 1000);
+INSERT INTO candies VALUES ("Milka"      , "Chocolate", "This is chocolate"        , 5.25, 125 );
+INSERT INTO candies VALUES ("Lolly"      , "Candy"    , "This is a lollypop"       , 1   , 100 );
+INSERT INTO candies VALUES ("Mint"       , "Candy"    , "This is a mint"           , 0.25, 200 );
+INSERT INTO candies VALUES ("Watermellon", "Gum"      , "This is a watermellon gum", 1.25, 180 );
+INSERT INTO candies VALUES ("Orbit"      , "Gum"      , "This is an Orbit gum"     , 1.20, 160 );
+INSERT INTO candies VALUES ("Trash"      , "Trash"    , "This is Trash"            , 0.01, 1000);
+INSERT INTO candies VALUES ("food1"      , "food"     , "This is food"             , 0.01, 1000);
+INSERT INTO candies VALUES ("food2"      , "food"     , "This is food"             , 0.01, 1000);
+INSERT INTO candies VALUES ("food3"      , "food"     , "This is food"             , 0.01, 1000);
+INSERT INTO candies VALUES ("food4"      , "food"     , "This is food"             , 0.01, 1000);
+INSERT INTO candies VALUES ("food5"      , "food"     , "This is food"             , 0.01, 1000);
+INSERT INTO candies VALUES ("food6"      , "food"     , "This is food"             , 0.01, 1000);
+INSERT INTO candies VALUES ("food7"      , "food"     , "This is food"             , 0.01, 1000);
 
 CALL Filter_Candy_Type("Candy");
 CALL Search_Candy_Name("Mi");
@@ -109,24 +109,24 @@ INSERT INTO orders_head VALUES (003, 103);
 INSERT INTO orders_head VALUES (004, 101);
 INSERT INTO orders_head VALUES (005, 103);
 
-INSERT INTO orders_body VALUES (001, "Milka", 2, "2023-06-15 09:34:21");
-INSERT INTO orders_body VALUES (001, "Mint", 10, "2023-06-15 09:34:21");
-INSERT INTO orders_body VALUES (002, "Milka", 4, "2023-06-15 09:34:21");
-INSERT INTO orders_body VALUES (002, "Lolly", 5, "2023-06-15 09:34:21");
-INSERT INTO orders_body VALUES (002, "Watermellon", 4, "2023-06-15 09:34:21");
-INSERT INTO orders_body VALUES (003, "Watermellon", 8, "2023-06-15 09:34:21");
-INSERT INTO orders_body VALUES (004, "Milka", 3, "2023-06-15 09:34:21");
-INSERT INTO orders_body VALUES (004, "Orbit", 1, "2023-06-15 09:34:21");
-INSERT INTO orders_body VALUES (005, "Lolly", 1, "2023-06-15 09:34:21");
-INSERT INTO orders_body VALUES (005, "Mint", 4, "2023-06-15 09:34:21");
+INSERT INTO orders_body VALUES (001, "Milka"      , 2 , "2023-06-15 09:34:21");
+INSERT INTO orders_body VALUES (001, "Mint"       , 10, "2023-06-15 09:34:21");
+INSERT INTO orders_body VALUES (002, "Milka"      , 4 , "2023-06-15 09:34:21");
+INSERT INTO orders_body VALUES (002, "Lolly"      , 5 , "2023-06-15 09:34:21");
+INSERT INTO orders_body VALUES (002, "Watermellon", 4 , "2023-06-15 09:34:21");
+INSERT INTO orders_body VALUES (003, "Watermellon", 8 , "2023-06-15 09:34:21");
+INSERT INTO orders_body VALUES (004, "Milka"      , 3 , "2023-06-15 09:34:21");
+INSERT INTO orders_body VALUES (004, "Orbit"      , 1 , "2023-06-15 09:34:21");
+INSERT INTO orders_body VALUES (005, "Lolly"      , 1 , "2023-06-15 09:34:21");
+INSERT INTO orders_body VALUES (005, "Mint"       , 4 , "2023-06-15 09:34:21");
 INSERT INTO orders_body VALUES (005, "Watermellon", 12, "2023-06-15 09:34:21");
-INSERT INTO orders_body VALUES (005, "food1", 1, "2023-06-15 09:34:21");
-INSERT INTO orders_body VALUES (005, "food2", 2, "2023-06-15 09:34:21");
-INSERT INTO orders_body VALUES (005, "food3", 3, "2023-06-15 09:34:21");
-INSERT INTO orders_body VALUES (005, "food4", 4, "2023-06-15 09:34:21");
-INSERT INTO orders_body VALUES (005, "food5", 5, "2023-06-15 09:34:21");
-INSERT INTO orders_body VALUES (005, "food6", 6, "2023-06-15 09:34:21");
-INSERT INTO orders_body VALUES (005, "food7", 7, "2023-06-15 09:34:21");
+INSERT INTO orders_body VALUES (005, "food1"      , 1 , "2023-06-15 09:34:21");
+INSERT INTO orders_body VALUES (005, "food2"      , 2 , "2023-06-15 09:34:21");
+INSERT INTO orders_body VALUES (005, "food3"      , 3 , "2023-06-15 09:34:21");
+INSERT INTO orders_body VALUES (005, "food4"      , 4 , "2023-06-15 09:34:21");
+INSERT INTO orders_body VALUES (005, "food5"      , 5 , "2023-06-15 09:34:21");
+INSERT INTO orders_body VALUES (005, "food6"      , 6 , "2023-06-15 09:34:21");
+INSERT INTO orders_body VALUES (005, "food7"      , 7 , "2023-06-15 09:34:21");
 
 -- ----------------------------------------------------------------------------
 
