@@ -1,3 +1,4 @@
+# A very basic and slow port scanner.
 import sys
 import socket
 from datetime import datetime
