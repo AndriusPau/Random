@@ -1,4 +1,6 @@
-﻿public class GetNestedDepth
+namespace GetNestedDepth;
+
+public class Branch
 {
     private List<Branch> branches;
 
